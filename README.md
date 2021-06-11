@@ -31,5 +31,5 @@ We have two frameworks within the SDK:
 * RavelinEncrypt - for card details encryption
     * is currently only available as:
         * a "fat" framework:
-            - [How to use RavelinEncrypt](https://github.com/unravelin/ravelin-ios/blob/master/RavelinEncrypt.md)
+            - [How to use RavelinEncrypt.framework](https://github.com/unravelin/ravelin-ios/blob/master/RavelinEncrypt.md)
 
