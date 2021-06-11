@@ -22,11 +22,11 @@ If you have any questions on getting started, please ask us in your Ravelin supp
 We have two frameworks within the SDK:
 * RavelinCore - which is used for deviceId, fingerprinting and tracking activity
     * available as either:
-        * an XCFramework
+        * an XCFramework:
             - supports both M1 and Intel architectures when developing via Simulator.
             - [How to use RavelinCore.xcframework](https://github.com/unravelin/ravelin-core-ios-xcframework-demo/blob/main/README.md)
-        * a legacy/"fat" framework 
-            [How to use RavelinCore.framework](https://github.com/unravelin/ravelin-ios/blob/master/RavelinCore.md)
+        * a legacy/"fat" framework: 
+            - [How to use RavelinCore.framework](https://github.com/unravelin/ravelin-ios/blob/master/RavelinCore.md)
 
 * RavelinEncrypt - for card details encryption
     * is currently only available as:
