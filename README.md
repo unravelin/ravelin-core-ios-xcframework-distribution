@@ -29,7 +29,10 @@ We have two frameworks within the SDK:
             - [How to use RavelinCore.framework](https://github.com/unravelin/ravelin-ios/blob/master/RavelinCore.md)
 
 * RavelinEncrypt - for card details encryption
-    * is currently only available as:
-        * a "fat" framework:
+     * available as either:
+        * an XCFramework:
+            - supports both M1 and Intel architectures when developing via Simulator.
+            - [How to use RavelinEncrypt.xcframework](https://github.com/unravelin/ravelin-encrypt-ios-xcframework-demo/blob/main/README.md)
+        * a legacy/"fat" framework: 
             - [How to use RavelinEncrypt.framework](https://github.com/unravelin/ravelin-ios/blob/master/RavelinEncrypt.md)
 
