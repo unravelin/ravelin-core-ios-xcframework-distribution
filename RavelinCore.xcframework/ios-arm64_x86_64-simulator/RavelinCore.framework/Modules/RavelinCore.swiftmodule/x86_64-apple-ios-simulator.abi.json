@@ -2002,12 +2002,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Foundation.Data?, Swift.Error?) -> ())?",
+                "printedName": "((Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.Data?, Swift.Error?) -> ()",
+                    "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2017,7 +2017,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Foundation.Data?, Swift.Error?)",
+                        "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -2029,6 +2029,20 @@
                                 "name": "Data",
                                 "printedName": "Foundation.Data",
                                 "usr": "s:10Foundation4DataV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Foundation.URLResponse?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URLResponse",
+                                "printedName": "Foundation.URLResponse",
+                                "usr": "c:objc(cs)NSURLResponse"
                               }
                             ],
                             "usr": "s:Sq"
@@ -2057,7 +2071,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@CM@RavelinCore@objc(cs)Ravelin(im)trackFingerprint:",
-            "mangledName": "$s11RavelinCore0A0C16trackFingerprintyyy10Foundation4DataVSg_s5Error_pSgtcSgF",
+            "mangledName": "$s11RavelinCore0A0C16trackFingerprintyyy10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtcSgF",
             "moduleName": "RavelinCore",
             "declAttributes": [
               "Dynamic",
@@ -2095,12 +2109,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Foundation.Data?, Swift.Error?) -> ())?",
+                "printedName": "((Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Foundation.Data?, Swift.Error?) -> ()",
+                    "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2110,7 +2124,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Foundation.Data?, Swift.Error?)",
+                        "printedName": "(Foundation.Data?, Foundation.URLResponse?, Swift.Error?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -2122,6 +2136,20 @@
                                 "name": "Data",
                                 "printedName": "Foundation.Data",
                                 "usr": "s:10Foundation4DataV"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Foundation.URLResponse?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "URLResponse",
+                                "printedName": "Foundation.URLResponse",
+                                "usr": "c:objc(cs)NSURLResponse"
                               }
                             ],
                             "usr": "s:Sq"
@@ -2150,7 +2178,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@CM@RavelinCore@objc(cs)Ravelin(im)trackFingerprint:completionHandler:",
-            "mangledName": "$s11RavelinCore0A0C16trackFingerprint_17completionHandlerySSSg_y10Foundation4DataVSg_s5Error_pSgtcSgtF",
+            "mangledName": "$s11RavelinCore0A0C16trackFingerprint_17completionHandlerySSSg_y10Foundation4DataVSg_So13NSURLResponseCSgs5Error_pSgtcSgtF",
             "moduleName": "RavelinCore",
             "declAttributes": [
               "Dynamic",
@@ -5729,7 +5757,21 @@
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 4129,
+      "offset": 4209,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5849,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5899,
       "length": 5,
       "value": "false"
     },
@@ -5911,161 +5953,189 @@
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 247,
       "length": 5,
       "value": "\"sdk\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 461,
+      "offset": 419,
       "length": 5,
       "value": "\"sdk\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 549,
+      "offset": 507,
       "length": 4,
       "value": "\"%@\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 653,
+      "offset": 611,
       "length": 4,
       "value": "\"%@\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 758,
+      "offset": 716,
       "length": 4,
       "value": "\"%@\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 863,
+      "offset": 821,
       "length": 4,
       "value": "\"%@\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "IntegerLiteral",
-      "offset": 957,
+      "offset": 914,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 935,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "IntegerLiteral",
-      "offset": 978,
+      "offset": 956,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "IntegerLiteral",
-      "offset": 997,
+      "offset": 975,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "IntegerLiteral",
-      "offset": 957,
+      "offset": 914,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 935,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "IntegerLiteral",
-      "offset": 978,
+      "offset": 956,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "IntegerLiteral",
-      "offset": 997,
+      "offset": 975,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "IntegerLiteral",
-      "offset": 957,
+      "offset": 914,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 935,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "IntegerLiteral",
-      "offset": 978,
+      "offset": 956,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "IntegerLiteral",
-      "offset": 997,
+      "offset": 975,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 1092,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1141,
       "length": 9,
       "value": "\"verbose\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1169,
+      "offset": 1193,
       "length": 9,
       "value": "\"warning\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1219,
+      "offset": 1243,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1533,
-      "length": 5,
-      "value": "\"Log\""
+      "offset": 1609,
+      "length": 17,
+      "value": "\"Ravelin SDK Log\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1754,
+      "offset": 1842,
       "length": 53,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1762,
+      "offset": 1850,
       "length": 5,
       "value": "\" level: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1790,
+      "offset": 1878,
       "length": 1,
       "value": "\":\n \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
-      "offset": 1806,
+      "offset": 1894,
       "length": 1,
       "value": "\"\""
     },

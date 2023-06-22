@@ -335,6 +335,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 
 
 
+
 @class NSNumber;
 
 @interface Ravelin (SWIFT_EXTENSION(RavelinCore))
@@ -467,6 +468,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 @end
 
 @class NSData;
+@class NSURLResponse;
 
 @interface Ravelin (SWIFT_EXTENSION(RavelinCore))
 /// Fingerprints the device and sends results to Ravelin
@@ -474,13 +476,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// Fingerprints the device and sends results to Ravelin
 /// \param completionHandler Completion handler for the response
 ///
-- (void)trackFingerprint:(void (^ _Nullable)(NSData * _Nullable, NSError * _Nullable))completionHandler;
+- (void)trackFingerprint:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 /// Fingerprints the device and sends results to Ravelin
 /// \param customerId The customerId to set for this device fingerprint.
 ///
 /// \param completionHandler Completion handler for the response
 ///
-- (void)trackFingerprint:(NSString * _Nullable)customerId completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSError * _Nullable))completionHandler;
+- (void)trackFingerprint:(NSString * _Nullable)customerId completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 @class WKUserScript;
@@ -844,6 +846,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 
 
 
+
 @class NSNumber;
 
 @interface Ravelin (SWIFT_EXTENSION(RavelinCore))
@@ -976,6 +979,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 @end
 
 @class NSData;
+@class NSURLResponse;
 
 @interface Ravelin (SWIFT_EXTENSION(RavelinCore))
 /// Fingerprints the device and sends results to Ravelin
@@ -983,13 +987,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// Fingerprints the device and sends results to Ravelin
 /// \param completionHandler Completion handler for the response
 ///
-- (void)trackFingerprint:(void (^ _Nullable)(NSData * _Nullable, NSError * _Nullable))completionHandler;
+- (void)trackFingerprint:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 /// Fingerprints the device and sends results to Ravelin
 /// \param customerId The customerId to set for this device fingerprint.
 ///
 /// \param completionHandler Completion handler for the response
 ///
-- (void)trackFingerprint:(NSString * _Nullable)customerId completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSError * _Nullable))completionHandler;
+- (void)trackFingerprint:(NSString * _Nullable)customerId completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 @class WKUserScript;

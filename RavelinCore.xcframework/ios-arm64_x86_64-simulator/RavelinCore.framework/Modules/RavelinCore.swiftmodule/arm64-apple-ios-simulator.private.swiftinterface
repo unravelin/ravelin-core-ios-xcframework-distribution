@@ -37,8 +37,8 @@ extension RavelinCore.Ravelin {
   @objc dynamic public func trackFingerprint()
   public func trackFingerprint(_ completionHandler: RavelinCore.TrackResponse?)
   public func trackFingerprint(_ customerId: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
-  @objc dynamic public func trackFingerprint(_ completionHandler: RavelinCore.RavelinTrackResponse?)
-  @objc dynamic public func trackFingerprint(_ customerId: Swift.String?, completionHandler: RavelinCore.RavelinTrackResponse?)
+  @objc dynamic public func trackFingerprint(_ completionHandler: RavelinCore.LegacyTrackResponse?)
+  @objc dynamic public func trackFingerprint(_ customerId: Swift.String?, completionHandler: RavelinCore.LegacyTrackResponse?)
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackRemoveFromCart(pageTitle: Swift.String?, itemName: Swift.String?, quantity: Foundation.NSNumber?)
@@ -51,9 +51,10 @@ extension RavelinCore.Ravelin {
 }
 public typealias RVNCore = RavelinCore.Ravelin
 public typealias RavelinSDK = RavelinCore.Ravelin
+public typealias RavelinTrackResponse = (Swift.Bool) -> Swift.Void
 public typealias TrackResult = Swift.Result<Foundation.Data, RavelinCore.SDKError>
 public typealias TrackResponse = (RavelinCore.TrackResult) -> Swift.Void
-public typealias RavelinTrackResponse = (_ data: Foundation.Data?, _ error: (any Swift.Error)?) -> Swift.Void
+public typealias LegacyTrackResponse = (_ data: Foundation.Data?, _ response: Foundation.URLResponse?, _ error: (any Swift.Error)?) -> Swift.Void
 public enum SDKError : Swift.Error {
   case inaccessible
   case urlError(Foundation.URLError)
