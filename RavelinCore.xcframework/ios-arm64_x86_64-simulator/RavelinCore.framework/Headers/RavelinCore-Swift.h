@@ -334,9 +334,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 @end
 
 
-
-
 @class NSNumber;
+@class NSData;
+@class NSURLResponse;
 
 @interface Ravelin (SWIFT_EXTENSION(RavelinCore))
 /// Sends a track add to cart event to Ravelin
@@ -347,6 +347,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param quantity Quantity of the item
 ///
 - (void)trackAddToCartWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName quantity:(NSNumber * _Nullable)quantity;
+/// Sends a track add to cart event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param itemName Name of the item
+///
+/// \param quantity Quantity of the item
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackAddToCartWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName quantity:(NSNumber * _Nullable)quantity completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 
@@ -359,6 +369,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param eventProperties A dictionary of meta data to send with the event
 ///
 - (void)track:(NSString * _Nullable)pageTitle eventName:(NSString * _Nullable)eventName eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
+/// Sends a track event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param eventName The name of the event
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)track:(NSString * _Nullable)pageTitle eventName:(NSString * _Nullable)eventName eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 
@@ -369,6 +389,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param itemName Name of the item
 ///
 - (void)trackAddToWishlistWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName;
+/// Sends a track add to wishlist event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param itemName Name of the item
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackAddToWishlistWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 
@@ -379,6 +407,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param itemName Name of the item
 ///
 - (void)trackRemoveFromWishlistWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName;
+/// Sends a track remove from wishlist event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param itemName Name of the item
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackRemoveFromWishlistWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 
@@ -389,7 +425,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param searchValue The searched term
 ///
 - (void)trackSearch:(NSString * _Nullable)pageTitle searchValue:(NSString * _Nullable)searchValue;
+/// Sends a track search event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param searchValue The searched term
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackSearch:(NSString * _Nullable)pageTitle searchValue:(NSString * _Nullable)searchValue completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
+
 
 
 @interface Ravelin (SWIFT_EXTENSION(RavelinCore))
@@ -401,6 +446,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param quantity Quantity of the item
 ///
 - (void)trackRemoveFromCartWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName quantity:(NSNumber * _Nullable)quantity;
+/// Sends a track remove from cart event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param itemName Name of the item
+///
+/// \param quantity Quantity of the item
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackRemoveFromCartWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName quantity:(NSNumber * _Nullable)quantity completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 
@@ -411,6 +466,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param contentType The type of the content
 ///
 - (void)trackViewContent:(NSString * _Nullable)pageTitle contentType:(NSString * _Nullable)contentType;
+/// Sends a track view content event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param contentType The type of the content
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackViewContent:(NSString * _Nullable)pageTitle contentType:(NSString * _Nullable)contentType completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 
@@ -423,52 +486,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param optionValue The value of the option
 ///
 - (void)trackSelectOption:(NSString * _Nullable)pageTitle option:(NSString * _Nullable)option optionValue:(NSString * _Nullable)optionValue;
+/// Sends a track selected option event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param option The name of the option
+///
+/// \param optionValue The value of the option
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackSelectOption:(NSString * _Nullable)pageTitle option:(NSString * _Nullable)option optionValue:(NSString * _Nullable)optionValue completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
-
-@interface Ravelin (SWIFT_EXTENSION(RavelinCore))
-/// Sends a track page event to Ravelin
-/// \param pageTitle The title of the current page
-///
-- (void)trackPage:(NSString * _Nullable)pageTitle;
-/// Sends a track page event to Ravelin
-/// \param pageTitle The title of the current page
-///
-/// \param eventProperties A dictionary of meta data to send with the event
-///
-- (void)trackPage:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
-@end
-
-
-@interface Ravelin (SWIFT_EXTENSION(RavelinCore))
-/// Ends current Ravelin session and sends logout event to Ravelin
-/// \param pageTitle The title of the current page
-///
-- (void)trackLogout:(NSString * _Nullable)pageTitle;
-/// Ends current Ravelin session and sends logout event to Ravelin
-/// \param pageTitle The title of the current page
-///
-/// \param eventProperties A dictionary of meta data to send with the event
-///
-- (void)trackLogout:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
-@end
-
-
-@interface Ravelin (SWIFT_EXTENSION(RavelinCore))
-/// Sends a track login event to Ravelin and sends customerId automatically if set
-/// \param pageTitle The title of the current page
-///
-- (void)trackLogin:(NSString * _Nullable)pageTitle;
-/// Sends a track login event to Ravelin and sends customerId automatically if set
-/// \param pageTitle The title of the current page
-///
-/// \param eventProperties A dictionary of meta data to send with the event
-///
-- (void)trackLogin:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
-@end
-
-@class NSData;
-@class NSURLResponse;
 
 @interface Ravelin (SWIFT_EXTENSION(RavelinCore))
 /// Fingerprints the device and sends results to Ravelin
@@ -483,6 +512,72 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param completionHandler Completion handler for the response
 ///
 - (void)trackFingerprint:(NSString * _Nullable)customerId completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
+@end
+
+
+@interface Ravelin (SWIFT_EXTENSION(RavelinCore))
+/// Sends a track page event to Ravelin
+/// \param pageTitle The title of the current page
+///
+- (void)trackPage:(NSString * _Nullable)pageTitle;
+/// Sends a track page event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+- (void)trackPage:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
+/// Sends a track page event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackPage:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
+@end
+
+
+@interface Ravelin (SWIFT_EXTENSION(RavelinCore))
+/// Ends current Ravelin session and sends logout event to Ravelin
+/// \param pageTitle The title of the current page
+///
+- (void)trackLogout:(NSString * _Nullable)pageTitle;
+/// Ends current Ravelin session and sends logout event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+- (void)trackLogout:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
+/// Ends current Ravelin session and sends logout event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackLogout:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
+@end
+
+
+@interface Ravelin (SWIFT_EXTENSION(RavelinCore))
+/// Sends a track login event to Ravelin and sends customerId automatically if set
+/// \param pageTitle The title of the current page
+///
+- (void)trackLogin:(NSString * _Nullable)pageTitle;
+/// Sends a track login event to Ravelin and sends customerId automatically if set
+/// \param pageTitle The title of the current page
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+- (void)trackLogin:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
+/// Sends a track login event to Ravelin and sends customerId automatically if set
+/// \param pageTitle The title of the current page
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackLogin:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 @class WKUserScript;
@@ -845,9 +940,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 @end
 
 
-
-
 @class NSNumber;
+@class NSData;
+@class NSURLResponse;
 
 @interface Ravelin (SWIFT_EXTENSION(RavelinCore))
 /// Sends a track add to cart event to Ravelin
@@ -858,6 +953,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param quantity Quantity of the item
 ///
 - (void)trackAddToCartWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName quantity:(NSNumber * _Nullable)quantity;
+/// Sends a track add to cart event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param itemName Name of the item
+///
+/// \param quantity Quantity of the item
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackAddToCartWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName quantity:(NSNumber * _Nullable)quantity completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 
@@ -870,6 +975,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param eventProperties A dictionary of meta data to send with the event
 ///
 - (void)track:(NSString * _Nullable)pageTitle eventName:(NSString * _Nullable)eventName eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
+/// Sends a track event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param eventName The name of the event
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)track:(NSString * _Nullable)pageTitle eventName:(NSString * _Nullable)eventName eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 
@@ -880,6 +995,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param itemName Name of the item
 ///
 - (void)trackAddToWishlistWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName;
+/// Sends a track add to wishlist event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param itemName Name of the item
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackAddToWishlistWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 
@@ -890,6 +1013,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param itemName Name of the item
 ///
 - (void)trackRemoveFromWishlistWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName;
+/// Sends a track remove from wishlist event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param itemName Name of the item
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackRemoveFromWishlistWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 
@@ -900,7 +1031,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param searchValue The searched term
 ///
 - (void)trackSearch:(NSString * _Nullable)pageTitle searchValue:(NSString * _Nullable)searchValue;
+/// Sends a track search event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param searchValue The searched term
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackSearch:(NSString * _Nullable)pageTitle searchValue:(NSString * _Nullable)searchValue completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
+
 
 
 @interface Ravelin (SWIFT_EXTENSION(RavelinCore))
@@ -912,6 +1052,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param quantity Quantity of the item
 ///
 - (void)trackRemoveFromCartWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName quantity:(NSNumber * _Nullable)quantity;
+/// Sends a track remove from cart event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param itemName Name of the item
+///
+/// \param quantity Quantity of the item
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackRemoveFromCartWithPageTitle:(NSString * _Nullable)pageTitle itemName:(NSString * _Nullable)itemName quantity:(NSNumber * _Nullable)quantity completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 
@@ -922,6 +1072,14 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param contentType The type of the content
 ///
 - (void)trackViewContent:(NSString * _Nullable)pageTitle contentType:(NSString * _Nullable)contentType;
+/// Sends a track view content event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param contentType The type of the content
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackViewContent:(NSString * _Nullable)pageTitle contentType:(NSString * _Nullable)contentType completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 
@@ -934,52 +1092,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param optionValue The value of the option
 ///
 - (void)trackSelectOption:(NSString * _Nullable)pageTitle option:(NSString * _Nullable)option optionValue:(NSString * _Nullable)optionValue;
+/// Sends a track selected option event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param option The name of the option
+///
+/// \param optionValue The value of the option
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackSelectOption:(NSString * _Nullable)pageTitle option:(NSString * _Nullable)option optionValue:(NSString * _Nullable)optionValue completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
-
-@interface Ravelin (SWIFT_EXTENSION(RavelinCore))
-/// Sends a track page event to Ravelin
-/// \param pageTitle The title of the current page
-///
-- (void)trackPage:(NSString * _Nullable)pageTitle;
-/// Sends a track page event to Ravelin
-/// \param pageTitle The title of the current page
-///
-/// \param eventProperties A dictionary of meta data to send with the event
-///
-- (void)trackPage:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
-@end
-
-
-@interface Ravelin (SWIFT_EXTENSION(RavelinCore))
-/// Ends current Ravelin session and sends logout event to Ravelin
-/// \param pageTitle The title of the current page
-///
-- (void)trackLogout:(NSString * _Nullable)pageTitle;
-/// Ends current Ravelin session and sends logout event to Ravelin
-/// \param pageTitle The title of the current page
-///
-/// \param eventProperties A dictionary of meta data to send with the event
-///
-- (void)trackLogout:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
-@end
-
-
-@interface Ravelin (SWIFT_EXTENSION(RavelinCore))
-/// Sends a track login event to Ravelin and sends customerId automatically if set
-/// \param pageTitle The title of the current page
-///
-- (void)trackLogin:(NSString * _Nullable)pageTitle;
-/// Sends a track login event to Ravelin and sends customerId automatically if set
-/// \param pageTitle The title of the current page
-///
-/// \param eventProperties A dictionary of meta data to send with the event
-///
-- (void)trackLogin:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
-@end
-
-@class NSData;
-@class NSURLResponse;
 
 @interface Ravelin (SWIFT_EXTENSION(RavelinCore))
 /// Fingerprints the device and sends results to Ravelin
@@ -994,6 +1118,72 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Ravelin * _N
 /// \param completionHandler Completion handler for the response
 ///
 - (void)trackFingerprint:(NSString * _Nullable)customerId completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
+@end
+
+
+@interface Ravelin (SWIFT_EXTENSION(RavelinCore))
+/// Sends a track page event to Ravelin
+/// \param pageTitle The title of the current page
+///
+- (void)trackPage:(NSString * _Nullable)pageTitle;
+/// Sends a track page event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+- (void)trackPage:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
+/// Sends a track page event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackPage:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
+@end
+
+
+@interface Ravelin (SWIFT_EXTENSION(RavelinCore))
+/// Ends current Ravelin session and sends logout event to Ravelin
+/// \param pageTitle The title of the current page
+///
+- (void)trackLogout:(NSString * _Nullable)pageTitle;
+/// Ends current Ravelin session and sends logout event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+- (void)trackLogout:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
+/// Ends current Ravelin session and sends logout event to Ravelin
+/// \param pageTitle The title of the current page
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackLogout:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
+@end
+
+
+@interface Ravelin (SWIFT_EXTENSION(RavelinCore))
+/// Sends a track login event to Ravelin and sends customerId automatically if set
+/// \param pageTitle The title of the current page
+///
+- (void)trackLogin:(NSString * _Nullable)pageTitle;
+/// Sends a track login event to Ravelin and sends customerId automatically if set
+/// \param pageTitle The title of the current page
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+- (void)trackLogin:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties;
+/// Sends a track login event to Ravelin and sends customerId automatically if set
+/// \param pageTitle The title of the current page
+///
+/// \param eventProperties A dictionary of meta data to send with the event
+///
+/// \param completionHandler Completion handler for the response
+///
+- (void)trackLogin:(NSString * _Nullable)pageTitle eventProperties:(NSDictionary<NSString *, id> * _Nullable)eventProperties completionHandler:(void (^ _Nullable)(NSData * _Nullable, NSURLResponse * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 @class WKUserScript;

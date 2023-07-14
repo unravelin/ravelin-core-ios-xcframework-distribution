@@ -2,10 +2,12 @@
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RavelinCore
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import CommonCrypto
 import CoreData
 import CoreLocation
 import CoreTelephony
 import Foundation
+import LocalAuthentication
 import MachO
 import Network
 @_exported import RavelinCore
@@ -19,11 +21,11 @@ import os
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackPage(_ pageTitle: Swift.String?)
   @objc dynamic public func trackPage(_ pageTitle: Swift.String?, eventProperties: [Swift.String : Any]?)
-  public func trackPage(_ pageTitle: Swift.String?, eventProperties: [Swift.String : Any]?, completionHandler: RavelinCore.TrackResponse?)
+  @objc dynamic public func trackPage(_ pageTitle: Swift.String?, eventProperties: [Swift.String : Any]?, completionHandler: RavelinCore.TrackResponse?)
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackViewContent(_ pageTitle: Swift.String?, contentType: Swift.String?)
-  public func trackViewContent(_ pageTitle: Swift.String?, contentType: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
+  @objc dynamic public func trackViewContent(_ pageTitle: Swift.String?, contentType: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
 }
 public typealias AddCookieResponse = (Foundation.HTTPCookie?) -> Swift.Void
 extension RavelinCore.Ravelin {
@@ -35,36 +37,32 @@ extension RavelinCore.Ravelin {
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackFingerprint()
-  public func trackFingerprint(_ completionHandler: RavelinCore.TrackResponse?)
-  public func trackFingerprint(_ customerId: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
-  @objc dynamic public func trackFingerprint(_ completionHandler: RavelinCore.LegacyTrackResponse?)
-  @objc dynamic public func trackFingerprint(_ customerId: Swift.String?, completionHandler: RavelinCore.LegacyTrackResponse?)
+  @objc dynamic public func trackFingerprint(_ completionHandler: RavelinCore.TrackResponse?)
+  @objc dynamic public func trackFingerprint(_ customerId: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackRemoveFromCart(pageTitle: Swift.String?, itemName: Swift.String?, quantity: Foundation.NSNumber?)
-  public func trackRemoveFromCart(pageTitle: Swift.String?, itemName: Swift.String?, quantity: Foundation.NSNumber?, completionHandler: RavelinCore.TrackResponse?)
+  @objc dynamic public func trackRemoveFromCart(pageTitle: Swift.String?, itemName: Swift.String?, quantity: Foundation.NSNumber?, completionHandler: RavelinCore.TrackResponse?)
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackLogout(_ pageTitle: Swift.String?)
   @objc dynamic public func trackLogout(_ pageTitle: Swift.String?, eventProperties: [Swift.String : Any]?)
-  public func trackLogout(_ pageTitle: Swift.String?, eventProperties: [Swift.String : Any]?, completionHandler: RavelinCore.TrackResponse?)
+  @objc dynamic public func trackLogout(_ pageTitle: Swift.String?, eventProperties: [Swift.String : Any]?, completionHandler: RavelinCore.TrackResponse?)
 }
 public typealias RVNCore = RavelinCore.Ravelin
 public typealias RavelinSDK = RavelinCore.Ravelin
-public typealias RavelinTrackResponse = (Swift.Bool) -> Swift.Void
-public typealias TrackResult = Swift.Result<Foundation.Data, RavelinCore.SDKError>
-public typealias TrackResponse = (RavelinCore.TrackResult) -> Swift.Void
-public typealias LegacyTrackResponse = (_ data: Foundation.Data?, _ response: Foundation.URLResponse?, _ error: (any Swift.Error)?) -> Swift.Void
+public typealias TrackResponse = (_ data: Foundation.Data?, _ response: Foundation.URLResponse?, _ error: (any Swift.Error)?) -> Swift.Void
 public enum SDKError : Swift.Error {
-  case inaccessible
-  case urlError(Foundation.URLError)
-  case generalError(any Swift.Error)
+  case generalError
   case noResponse
-  case invalidResponseType(Foundation.URLResponse)
-  case noResponseData(Foundation.HTTPURLResponse)
-  case endpointError(Foundation.HTTPURLResponse, Foundation.Data?)
+  public static func == (a: RavelinCore.SDKError, b: RavelinCore.SDKError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(Ravelin) @objcMembers public class Ravelin : ObjectiveC.NSObject {
+  @objc deinit
   @objc public static let shared: RavelinCore.Ravelin
   @objc public var orderId: Swift.String? {
     @objc get
@@ -91,35 +89,51 @@ public enum SDKError : Swift.Error {
     @objc get
   }
   @objc public class func createInstance(_ apiKey: Swift.String) -> RavelinCore.Ravelin
-  @objc public class func createInstance(apiKey: Swift.String, rsaKey: Swift.String? = nil, enableRetry: Swift.Bool = false) -> RavelinCore.Ravelin
-  @objc deinit
+  @objc public class func createInstance(apiKey: Swift.String, rsaKey: Swift.String? = nil, enableRetry: Swift.Bool = true) -> RavelinCore.Ravelin
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackSearch(_ pageTitle: Swift.String?, searchValue: Swift.String?)
-  public func trackSearch(_ pageTitle: Swift.String?, searchValue: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
+  @objc dynamic public func trackSearch(_ pageTitle: Swift.String?, searchValue: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackLogin(_ pageTitle: Swift.String?)
   @objc dynamic public func trackLogin(_ pageTitle: Swift.String?, eventProperties: [Swift.String : Any]?)
-  public func trackLogin(_ pageTitle: Swift.String?, eventProperties: [Swift.String : Any]?, completionHandler: RavelinCore.TrackResponse?)
+  @objc dynamic public func trackLogin(_ pageTitle: Swift.String?, eventProperties: [Swift.String : Any]?, completionHandler: RavelinCore.TrackResponse?)
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackRemoveFromWishlist(pageTitle: Swift.String?, itemName: Swift.String?)
-  public func trackRemoveFromWishlist(pageTitle: Swift.String?, itemName: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
+  @objc dynamic public func trackRemoveFromWishlist(pageTitle: Swift.String?, itemName: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackAddToWishlist(pageTitle: Swift.String?, itemName: Swift.String?)
-  public func trackAddToWishlist(pageTitle: Swift.String?, itemName: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
+  @objc dynamic public func trackAddToWishlist(pageTitle: Swift.String?, itemName: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func track(_ pageTitle: Swift.String?, eventName: Swift.String?, eventProperties: [Swift.String : Any]?)
-  public func track(_ pageTitle: Swift.String?, eventName: Swift.String?, eventProperties: [Swift.String : Any]?, completionHandler: RavelinCore.TrackResponse?)
+  @objc dynamic public func track(_ pageTitle: Swift.String?, eventName: Swift.String?, eventProperties: [Swift.String : Any]?, completionHandler: RavelinCore.TrackResponse?)
+}
+public enum FileIntegrityCheck {
+  case bundleID(Swift.String)
+  case mobileProvision(Swift.String)
+  case machO(Swift.String, Swift.String)
+}
+extension RavelinCore.FileIntegrityCheck {
+  public var description: Swift.String {
+    get
+  }
+}
+public typealias FileIntegrityCheckResult = (result: Swift.Bool, hitChecks: [RavelinCore.FileIntegrityCheck])
+public enum IntegrityCheckImageTarget {
+  case `default`
+  case custom(Swift.String)
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackAddToCart(pageTitle: Swift.String?, itemName: Swift.String?, quantity: Foundation.NSNumber?)
-  public func trackAddToCart(pageTitle: Swift.String?, itemName: Swift.String?, quantity: Foundation.NSNumber?, completionHandler: RavelinCore.TrackResponse?)
+  @objc dynamic public func trackAddToCart(pageTitle: Swift.String?, itemName: Swift.String?, quantity: Foundation.NSNumber?, completionHandler: RavelinCore.TrackResponse?)
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackSelectOption(_ pageTitle: Swift.String?, option: Swift.String?, optionValue: Swift.String?)
-  public func trackSelectOption(_ pageTitle: Swift.String?, option: Swift.String?, optionValue: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
+  @objc dynamic public func trackSelectOption(_ pageTitle: Swift.String?, option: Swift.String?, optionValue: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
 }
+extension RavelinCore.SDKError : Swift.Equatable {}
+extension RavelinCore.SDKError : Swift.Hashable {}
