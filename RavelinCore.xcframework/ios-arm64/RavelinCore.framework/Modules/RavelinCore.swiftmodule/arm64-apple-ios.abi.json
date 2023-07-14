@@ -8542,35 +8542,7 @@
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/DefaultRequestBuilder.swift",
       "kind": "StringLiteral",
-      "offset": 407,
-      "length": 7,
-      "value": "\"local\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/DefaultRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 439,
-      "length": 6,
-      "value": "\"http\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/DefaultRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 465,
-      "length": 11,
-      "value": "\"127.0.0.1\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/DefaultRequestBuilder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 496,
-      "length": 4,
-      "value": "8080"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/DefaultRequestBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 556,
+      "offset": 552,
       "length": 7,
       "value": "\"https\""
     },
