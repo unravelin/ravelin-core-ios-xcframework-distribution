@@ -6069,23 +6069,79 @@
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
       "kind": "StringLiteral",
-      "offset": 813,
+      "offset": 684,
+      "length": 35,
+      "value": "\"Track - thread: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
+      "kind": "StringLiteral",
+      "offset": 902,
       "length": 7,
       "value": "\"Tasks\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 897,
+      "offset": 986,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
+      "kind": "StringLiteral",
+      "offset": 1204,
+      "length": 35,
+      "value": "\"Track - thread: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
+      "kind": "StringLiteral",
+      "offset": 1238,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
+      "kind": "StringLiteral",
+      "offset": 1422,
+      "length": 7,
+      "value": "\"Tasks\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1506,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 3424,
+      "offset": 4031,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
+      "kind": "StringLiteral",
+      "offset": 4615,
+      "length": 45,
+      "value": "\"sendFingerprint - thread: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
+      "kind": "StringLiteral",
+      "offset": 4659,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataFetchedPropertyDescription.swift",
@@ -7497,539 +7553,567 @@
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 1101,
+      "length": 50,
+      "value": "\"managedObjectContext - thread: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1150,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1922,
       "length": 55,
       "value": "\"Persistent Store Location: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 1856,
+      "offset": 1976,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2017,
+      "length": 49,
+      "value": "\"RequestQueueManager - thread: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2065,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2298,
+      "offset": 2499,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2346,
+      "offset": 2547,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 2571,
+      "offset": 2772,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 2579,
+      "offset": 2780,
       "length": 1,
       "value": "\".sqlite\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 2780,
+      "offset": 2981,
       "length": 50,
       "value": "\"RequestQueue error: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 2829,
+      "offset": 3030,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3116,
+      "offset": 3317,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3274,
+      "offset": 3475,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3723,
+      "offset": 3924,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3984,
+      "offset": 4185,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4014,
+      "offset": 4215,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 4544,
+      "offset": 4745,
       "length": 53,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 4581,
+      "offset": 4782,
       "length": 5,
       "value": "\" added to queue\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4687,
+      "offset": 4888,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 4887,
+      "offset": 5088,
       "length": 41,
       "value": "\"addOperation - count: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 4927,
+      "offset": 5128,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5011,
+      "offset": 5212,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5041,
+      "offset": 5242,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 5354,
+      "offset": 5555,
       "length": 68,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 5379,
+      "offset": 5580,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 5383,
+      "offset": 5584,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 5417,
+      "offset": 5618,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 5421,
+      "offset": 5622,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 5558,
+      "offset": 5759,
       "length": 21,
       "value": "\"Queue is processing\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 5640,
+      "offset": 5841,
       "length": 25,
       "value": "\"Queue is not processing\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 5756,
+      "offset": 5957,
       "length": 45,
       "value": "\"removeAll - count before: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 5800,
+      "offset": 6001,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 5924,
+      "offset": 6125,
       "length": 44,
       "value": "\"removeAll - count after: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 5967,
+      "offset": 6168,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 6251,
+      "offset": 6452,
       "length": 18,
       "value": "\"%@ > pausedUntil\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 6369,
+      "offset": 6570,
       "length": 20,
       "value": "\"pausedUntil != nil\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 6709,
+      "offset": 6910,
       "length": 52,
       "value": "\"removeBeforeDate - count before: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 6760,
+      "offset": 6961,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 6945,
+      "offset": 7146,
       "length": 51,
       "value": "\"removeBeforeDate - count after: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 6995,
+      "offset": 7196,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 7059,
+      "offset": 7260,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 7259,
+      "offset": 7460,
       "length": 20,
       "value": "\"pausedUntil == nil\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 7556,
+      "offset": 7757,
       "length": 11,
       "value": "\"%@ > date\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7936,
+      "offset": 8137,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 8155,
+      "offset": 8356,
       "length": 53,
       "value": "\"RequestQueueManager - startProcessing - self is nil\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 8326,
+      "offset": 8527,
       "length": 29,
       "value": "\"Queue is already processing\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 8684,
+      "offset": 8885,
       "length": 49,
       "value": "\"Expired Items: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 8714,
+      "offset": 8915,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 8732,
+      "offset": 8933,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 8984,
+      "offset": 9185,
       "length": 57,
       "value": "\"collectExpiredRequests - count after: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 9040,
+      "offset": 9241,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 9261,
+      "offset": 9462,
       "length": 79,
       "value": "\"RequestQueueManager - performErrorRequest:\n  \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 9339,
+      "offset": 9540,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 9492,
+      "offset": 9693,
       "length": 7,
       "value": "\"click\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 9591,
+      "offset": 9792,
       "length": 29,
       "value": "\"Error for events: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 9619,
+      "offset": 9820,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 9749,
+      "offset": 9950,
       "length": 13,
       "value": "\"fingerprint\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 9864,
+      "offset": 10065,
       "length": 39,
       "value": "\"Error for fingerprint: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 9902,
+      "offset": 10103,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 10339,
+      "offset": 10540,
       "length": 64,
       "value": "\"Queue Items: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 10367,
+      "offset": 10568,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 10385,
+      "offset": 10586,
       "length": 5,
       "value": "\" ready to process\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 10674,
+      "offset": 10875,
       "length": 74,
       "value": "\"RequestQueueManager - performRequest:\n  \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 10747,
+      "offset": 10948,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10771,
+      "offset": 10972,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 10942,
+      "offset": 11143,
       "length": 52,
       "value": "\"RequestQueueManager - performRequest - self is nil\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 11080,
+      "offset": 11281,
       "length": 79,
       "value": "\"Processed \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 11127,
+      "offset": 11328,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 11158,
+      "offset": 11359,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 11454,
+      "offset": 11655,
       "length": 50,
       "value": "\"RequestQueueManager - addOperation - self is nil\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 11907,
+      "offset": 12108,
       "length": 52,
       "value": "\"completion handler not found for: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 11958,
+      "offset": 12159,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12751,
+      "offset": 12952,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12809,
+      "offset": 13010,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12857,
+      "offset": 13058,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 13037,
+      "offset": 13238,
       "length": 32,
       "value": "\"schedule retry after: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 13068,
+      "offset": 13269,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 13223,
+      "offset": 13424,
       "length": 26,
       "value": "\"retrying after: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 13248,
+      "offset": 13449,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13303,
+      "offset": 13504,
       "length": 5,
       "value": "false"
     },
