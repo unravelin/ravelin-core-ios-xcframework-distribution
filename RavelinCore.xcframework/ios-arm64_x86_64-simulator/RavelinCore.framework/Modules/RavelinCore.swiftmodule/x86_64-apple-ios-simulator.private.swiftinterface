@@ -36,6 +36,7 @@ extension RavelinCore.Ravelin {
   @objc dynamic public func addRavelinDeviceIdCookie(webView: WebKit.WKWebView, domain: Swift.String, completionHandler: RavelinCore.AddCookieResponse? = nil)
 }
 extension RavelinCore.Ravelin {
+  @objc dynamic public func deleteTrackRequests()
   @objc dynamic public func trackFingerprint()
   @objc dynamic public func trackFingerprint(_ completionHandler: RavelinCore.TrackResponse?)
   @objc dynamic public func trackFingerprint(_ customerId: Swift.String?, completionHandler: RavelinCore.TrackResponse?)
