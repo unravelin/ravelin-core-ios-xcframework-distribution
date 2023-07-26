@@ -8793,7 +8793,7 @@
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/DebuggerCheck.swift",
       "kind": "StringLiteral",
-      "offset": 1309,
+      "offset": 1347,
       "length": 75,
       "value": "\"Error occured when calling ptrace(). Denying debugger may not be reliable\""
     },
@@ -8975,105 +8975,105 @@
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "Array",
-      "offset": 2788,
+      "offset": 3000,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "BooleanLiteral",
-      "offset": 2812,
+      "offset": 3024,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "BooleanLiteral",
-      "offset": 3016,
+      "offset": 3228,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "BooleanLiteral",
-      "offset": 3248,
+      "offset": 3460,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "BooleanLiteral",
-      "offset": 3492,
+      "offset": 3704,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "BooleanLiteral",
-      "offset": 3795,
+      "offset": 4007,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "BooleanLiteral",
-      "offset": 3834,
+      "offset": 4046,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "StringLiteral",
-      "offset": 4001,
+      "offset": 4213,
       "length": 10,
       "value": "\"embedded\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "StringLiteral",
-      "offset": 4021,
+      "offset": 4233,
       "length": 17,
       "value": "\"mobileprovision\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "BooleanLiteral",
-      "offset": 4054,
+      "offset": 4266,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "IntegerLiteral",
-      "offset": 4349,
+      "offset": 4561,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "BooleanLiteral",
-      "offset": 4642,
+      "offset": 4854,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "BooleanLiteral",
-      "offset": 4713,
+      "offset": 4925,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "BooleanLiteral",
-      "offset": 5007,
+      "offset": 5219,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
       "kind": "StringLiteral",
-      "offset": 12473,
+      "offset": 12685,
       "length": 8,
       "value": "\"%02hhx\""
     },
@@ -9270,13 +9270,83 @@
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckURLSchemes.swift",
       "kind": "Array",
       "offset": 92,
-      "length": 134,
-      "value": "[\"cydia:\/\/:\", \"undecimus:\/\/\", \"sileo:\/\/\", \"zbra:\/\/\", \"filza:\/\/\", \"activator:\/\/\"]"
+      "length": 133,
+      "value": "[\"cydia:\/\/\", \"undecimus:\/\/\", \"sileo:\/\/\", \"zbra:\/\/\", \"filza:\/\/\", \"activator:\/\/\"]"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckURLSchemes.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 6,
+      "value": "\"Info\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckURLSchemes.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckURLSchemes.swift",
+      "kind": "Array",
+      "offset": 410,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckURLSchemes.swift",
+      "kind": "Array",
+      "offset": 520,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckURLSchemes.swift",
+      "kind": "Array",
+      "offset": 634,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckURLSchemes.swift",
+      "kind": "Array",
+      "offset": 695,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckURLSchemes.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 29,
+      "value": "\"LSApplicationQueriesSchemes\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckURLSchemes.swift",
+      "kind": "Array",
+      "offset": 820,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckURLSchemes.swift",
+      "kind": "StringLiteral",
+      "offset": 1280,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckURLSchemes.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1321,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckURLSchemes.swift",
       "kind": "IntegerLiteral",
-      "offset": 1075,
+      "offset": 1993,
       "length": 1,
       "value": "0"
     },
