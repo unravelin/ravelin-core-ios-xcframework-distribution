@@ -3,7 +3,6 @@
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RavelinCore
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CommonCrypto
-import CoreData
 import CoreLocation
 import CoreTelephony
 import Foundation
@@ -100,6 +99,39 @@ extension RavelinCore.Ravelin {
   @objc dynamic public func trackLogin(_ pageTitle: Swift.String?)
   @objc dynamic public func trackLogin(_ pageTitle: Swift.String?, eventProperties: [Swift.String : Any]?)
   @objc dynamic public func trackLogin(_ pageTitle: Swift.String?, eventProperties: [Swift.String : Any]?, completionHandler: RavelinCore.TrackResponse?)
+}
+public struct ULID : Swift.Hashable, Swift.Equatable, Swift.Comparable, Swift.CustomStringConvertible {
+  public var ulid: (Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8) {
+    get
+  }
+  public init(ulid: Darwin.uuid_t)
+  public init?(ulidData data: Foundation.Data)
+  public init?(ulidString string: Swift.String)
+  public init?(timestamp: Foundation.Date = Date(), randomPartData data: Foundation.Data)
+  public init<T>(timestamp: Foundation.Date, generator: inout T) where T : Swift.RandomNumberGenerator
+  public init(timestamp: Foundation.Date = Date())
+  public var ulidData: Foundation.Data {
+    get
+  }
+  public var ulidString: Swift.String {
+    get
+  }
+  public var timestamp: Foundation.Date {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: RavelinCore.ULID, rhs: RavelinCore.ULID) -> Swift.Bool
+  public static func < (lhs: RavelinCore.ULID, rhs: RavelinCore.ULID) -> Swift.Bool
+  public var description: Swift.String {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension RavelinCore.ULID : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension RavelinCore.Ravelin {
   @objc dynamic public func trackRemoveFromWishlist(pageTitle: Swift.String?, itemName: Swift.String?)

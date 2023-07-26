@@ -20,13 +20,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "RavelinCore"
-      },
-      {
-        "kind": "Import",
         "name": "LocalAuthentication",
         "printedName": "LocalAuthentication",
         "declKind": "Import",
@@ -97,8 +90,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "RavelinCore"
       },
@@ -135,31 +128,10 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "RavelinCore"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "RavelinCore"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "RavelinCore",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "RavelinCore"
       },
       {
         "kind": "Import",
@@ -3867,13 +3839,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "RavelinCore"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3932,11 +3897,953 @@
         "moduleName": "RavelinCore"
       },
       {
-        "kind": "Import",
-        "name": "os.log",
-        "printedName": "os.log",
-        "declKind": "Import",
-        "moduleName": "RavelinCore"
+        "kind": "TypeDecl",
+        "name": "ULID",
+        "printedName": "ULID",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ulid",
+            "printedName": "ulid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RavelinCore4ULIDV4ulids5UInt8V_A15Ftvp",
+            "mangledName": "$s11RavelinCore4ULIDV4ulids5UInt8V_A15Ftvp",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RavelinCore4ULIDV4ulids5UInt8V_A15Ftvg",
+                "mangledName": "$s11RavelinCore4ULIDV4ulids5UInt8V_A15Ftvg",
+                "moduleName": "RavelinCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ulid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ULID",
+                "printedName": "RavelinCore.ULID",
+                "usr": "s:11RavelinCore4ULIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8, Swift.UInt8)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RavelinCore4ULIDV4ulidACs5UInt8V_A15Ft_tcfc",
+            "mangledName": "$s11RavelinCore4ULIDV4ulidACs5UInt8V_A15Ft_tcfc",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ulidData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RavelinCore.ULID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ULID",
+                    "printedName": "RavelinCore.ULID",
+                    "usr": "s:11RavelinCore4ULIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RavelinCore4ULIDV8ulidDataACSg10Foundation0E0V_tcfc",
+            "mangledName": "$s11RavelinCore4ULIDV8ulidDataACSg10Foundation0E0V_tcfc",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(ulidString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RavelinCore.ULID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ULID",
+                    "printedName": "RavelinCore.ULID",
+                    "usr": "s:11RavelinCore4ULIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RavelinCore4ULIDV10ulidStringACSgSS_tcfc",
+            "mangledName": "$s11RavelinCore4ULIDV10ulidStringACSgSS_tcfc",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(timestamp:randomPartData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RavelinCore.ULID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ULID",
+                    "printedName": "RavelinCore.ULID",
+                    "usr": "s:11RavelinCore4ULIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RavelinCore4ULIDV9timestamp14randomPartDataACSg10Foundation4DateV_AG0G0Vtcfc",
+            "mangledName": "$s11RavelinCore4ULIDV9timestamp14randomPartDataACSg10Foundation4DateV_AG0G0Vtcfc",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(timestamp:generator:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ULID",
+                "printedName": "RavelinCore.ULID",
+                "usr": "s:11RavelinCore4ULIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0",
+                "paramValueOwnership": "InOut"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RavelinCore4ULIDV9timestamp9generatorAC10Foundation4DateV_xztcSGRzlufc",
+            "mangledName": "$s11RavelinCore4ULIDV9timestamp9generatorAC10Foundation4DateV_xztcSGRzlufc",
+            "moduleName": "RavelinCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.RandomNumberGenerator>",
+            "sugared_genericSig": "<T where T : Swift.RandomNumberGenerator>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ULID",
+                "printedName": "RavelinCore.ULID",
+                "usr": "s:11RavelinCore4ULIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RavelinCore4ULIDV9timestampAC10Foundation4DateV_tcfc",
+            "mangledName": "$s11RavelinCore4ULIDV9timestampAC10Foundation4DateV_tcfc",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "ulidData",
+            "printedName": "ulidData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RavelinCore4ULIDV8ulidData10Foundation0E0Vvp",
+            "mangledName": "$s11RavelinCore4ULIDV8ulidData10Foundation0E0Vvp",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RavelinCore4ULIDV8ulidData10Foundation0E0Vvg",
+                "mangledName": "$s11RavelinCore4ULIDV8ulidData10Foundation0E0Vvg",
+                "moduleName": "RavelinCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ulidString",
+            "printedName": "ulidString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RavelinCore4ULIDV10ulidStringSSvp",
+            "mangledName": "$s11RavelinCore4ULIDV10ulidStringSSvp",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RavelinCore4ULIDV10ulidStringSSvg",
+                "mangledName": "$s11RavelinCore4ULIDV10ulidStringSSvg",
+                "moduleName": "RavelinCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RavelinCore4ULIDV9timestamp10Foundation4DateVvp",
+            "mangledName": "$s11RavelinCore4ULIDV9timestamp10Foundation4DateVvp",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RavelinCore4ULIDV9timestamp10Foundation4DateVvg",
+                "mangledName": "$s11RavelinCore4ULIDV9timestamp10Foundation4DateVvg",
+                "moduleName": "RavelinCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RavelinCore4ULIDV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11RavelinCore4ULIDV4hash4intoys6HasherVz_tF",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ULID",
+                "printedName": "RavelinCore.ULID",
+                "usr": "s:11RavelinCore4ULIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ULID",
+                "printedName": "RavelinCore.ULID",
+                "usr": "s:11RavelinCore4ULIDV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RavelinCore4ULIDV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11RavelinCore4ULIDV2eeoiySbAC_ACtFZ",
+            "moduleName": "RavelinCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ULID",
+                "printedName": "RavelinCore.ULID",
+                "usr": "s:11RavelinCore4ULIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ULID",
+                "printedName": "RavelinCore.ULID",
+                "usr": "s:11RavelinCore4ULIDV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RavelinCore4ULIDV1loiySbAC_ACtFZ",
+            "mangledName": "$s11RavelinCore4ULIDV1loiySbAC_ACtFZ",
+            "moduleName": "RavelinCore",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RavelinCore4ULIDV11descriptionSSvp",
+            "mangledName": "$s11RavelinCore4ULIDV11descriptionSSvp",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RavelinCore4ULIDV11descriptionSSvg",
+                "mangledName": "$s11RavelinCore4ULIDV11descriptionSSvg",
+                "moduleName": "RavelinCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11RavelinCore4ULIDV9hashValueSivp",
+            "mangledName": "$s11RavelinCore4ULIDV9hashValueSivp",
+            "moduleName": "RavelinCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11RavelinCore4ULIDV9hashValueSivg",
+                "mangledName": "$s11RavelinCore4ULIDV9hashValueSivg",
+                "moduleName": "RavelinCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ULID",
+                "printedName": "RavelinCore.ULID",
+                "usr": "s:11RavelinCore4ULIDV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11RavelinCore4ULIDV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11RavelinCore4ULIDV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11RavelinCore4ULIDV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11RavelinCore4ULIDV6encode2toys7Encoder_p_tKF",
+            "moduleName": "RavelinCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11RavelinCore4ULIDV",
+        "mangledName": "$s11RavelinCore4ULIDV",
+        "moduleName": "RavelinCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3947,8 +4854,15 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "RavelinCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "RavelinCore"
       },
@@ -3996,8 +4910,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "RavelinCore"
       },
@@ -4450,13 +5364,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "RavelinCore"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4464,8 +5371,8 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "RavelinCore"
       },
@@ -4502,13 +5409,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreData",
-        "printedName": "CoreData",
-        "declKind": "Import",
-        "moduleName": "RavelinCore"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4520,431 +5420,6 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "RavelinCore"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Optional",
-        "printedName": "Optional",
-        "declKind": "Enum",
-        "usr": "s:Sq",
-        "mangledName": "$sSq",
-        "moduleName": "Swift",
-        "genericSig": "<τ_0_0>",
-        "sugared_genericSig": "<Wrapped>",
-        "declAttributes": [
-          "Frozen"
-        ],
-        "isExternal": true,
-        "isEnumExhaustive": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByNilLiteral",
-            "printedName": "ExpressibleByNilLiteral",
-            "usr": "s:s23ExpressibleByNilLiteralP",
-            "mangledName": "$ss23ExpressibleByNilLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "AnyObject"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "EncodableWithConfiguration",
-            "printedName": "EncodableWithConfiguration",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "EncodingConfiguration",
-                "printedName": "EncodingConfiguration",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DependentMember",
-                    "printedName": "τ_0_0.EncodingConfiguration"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation26EncodableWithConfigurationP",
-            "mangledName": "$s10Foundation26EncodableWithConfigurationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "DecodableWithConfiguration",
-            "printedName": "DecodableWithConfiguration",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "DecodingConfiguration",
-                "printedName": "DecodingConfiguration",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DependentMember",
-                    "printedName": "τ_0_0.DecodingConfiguration"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:10Foundation26DecodableWithConfigurationP",
-            "mangledName": "$s10Foundation26DecodableWithConfigurationP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Set",
-        "printedName": "Set",
-        "declKind": "Struct",
-        "usr": "s:Sh",
-        "mangledName": "$sSh",
-        "moduleName": "Swift",
-        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Hashable>",
-        "sugared_genericSig": "<Element where Element : Swift.Hashable>",
-        "declAttributes": [
-          "Frozen"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByArrayLiteral",
-            "printedName": "ExpressibleByArrayLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ArrayLiteralElement",
-                "printedName": "ArrayLiteralElement",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s25ExpressibleByArrayLiteralP",
-            "mangledName": "$ss25ExpressibleByArrayLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sequence",
-            "printedName": "Sequence",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Iterator",
-                "printedName": "Iterator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Iterator",
-                    "printedName": "Swift.Set<τ_0_0>.Iterator",
-                    "usr": "s:Sh8IteratorV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:ST",
-            "mangledName": "$sST"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Collection",
-            "printedName": "Collection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Index",
-                "printedName": "Index",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Index",
-                    "printedName": "Swift.Set<τ_0_0>.Index",
-                    "usr": "s:Sh5IndexV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Iterator",
-                "printedName": "Iterator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Iterator",
-                    "printedName": "Swift.Set<τ_0_0>.Iterator",
-                    "usr": "s:Sh8IteratorV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Slice",
-                    "printedName": "Swift.Slice<Swift.Set<τ_0_0>>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Set",
-                        "printedName": "Swift.Set<τ_0_0>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:Sh"
-                      }
-                    ],
-                    "usr": "s:s5SliceV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Indices",
-                "printedName": "Indices",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DefaultIndices",
-                    "printedName": "Swift.DefaultIndices<Swift.Set<τ_0_0>>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Set",
-                        "printedName": "Swift.Set<τ_0_0>",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "GenericTypeParam",
-                            "printedName": "τ_0_0"
-                          }
-                        ],
-                        "usr": "s:Sh"
-                      }
-                    ],
-                    "usr": "s:SI"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sl",
-            "mangledName": "$sSl"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_HasCustomAnyHashableRepresentation",
-            "printedName": "_HasCustomAnyHashableRepresentation",
-            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
-            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SetAlgebra",
-            "printedName": "SetAlgebra",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "GenericTypeParam",
-                    "printedName": "τ_0_0"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s10SetAlgebraP",
-            "mangledName": "$ss10SetAlgebraP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSSet",
-                    "printedName": "Foundation.NSSet",
-                    "usr": "c:objc(cs)NSSet"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          }
-        ]
       }
     ],
     "json_format_version": 8
@@ -5005,48 +5480,6 @@
       "offset": 1178,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataEntityDescription.swift",
-      "kind": "BooleanLiteral",
-      "offset": 670,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataEntityDescription.swift",
-      "kind": "Array",
-      "offset": 745,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataEntityDescription.swift",
-      "kind": "Array",
-      "offset": 830,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataEntityDescription.swift",
-      "kind": "Array",
-      "offset": 908,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataEntityDescription.swift",
-      "kind": "Array",
-      "offset": 978,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataEntityDescription.swift",
-      "kind": "Array",
-      "offset": 1026,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore+track\/RavelinCore+trackViewContent.swift",
@@ -5595,186 +6028,459 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 493,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 14,
+      "value": "\"RequestQueue\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 988,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1878,
+      "length": 55,
+      "value": "\"Persistent Store Location: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1932,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1973,
+      "length": 49,
+      "value": "\"RequestQueueManager - thread: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2021,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2196,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2239,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2321,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2409,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2656,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2664,
+      "length": 1,
+      "value": "\".archive\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2752,
+      "length": 45,
+      "value": "\"archive - eventCache: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2796,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2846,
+      "length": 12,
+      "value": "\"eventCache\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2950,
+      "length": 12,
+      "value": "\"eventCache\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3002,
+      "length": 47,
+      "value": "\"unarchive - eventCache: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3048,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3242,
+      "length": 50,
+      "value": "\"RequestQueue error: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3291,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4073,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4672,
+      "length": 54,
+      "value": "\"cacheEvent - cachedEventCount: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4725,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5390,
+      "length": 68,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5415,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5419,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5453,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5457,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5594,
+      "length": 21,
+      "value": "\"Queue is processing\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5676,
+      "length": 25,
+      "value": "\"Queue is not processing\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5893,
+      "length": 55,
+      "value": "\"removeAllCachedEvents - count before: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5947,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6019,
+      "length": 54,
+      "value": "\"removeAllCachedEvents - count after: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6072,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6296,
+      "length": 62,
+      "value": "\"removeEventsCachedBeforeDate - count before: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6357,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6549,
+      "length": 61,
+      "value": "\"removeEventsCachedBeforeDate - count after: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6609,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7000,
+      "length": 60,
+      "value": "\"eventsAdded - before: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7030,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7059,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7374,
+      "length": 53,
+      "value": "\"RequestQueueManager - startProcessing - self is nil\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7554,
+      "length": 63,
+      "value": "\"Queue is already processing: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7616,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "Array",
+      "offset": 8133,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8485,
+      "length": 7,
+      "value": "\"retry\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8501,
+      "length": 19,
+      "value": "\"Fingerprint error\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9405,
+      "length": 74,
+      "value": "\"RequestQueueManager - performRequest:\n  \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9478,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9502,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9673,
+      "length": 52,
+      "value": "\"RequestQueueManager - performRequest - self is nil\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9811,
+      "length": 79,
+      "value": "\"Processed \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9858,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9889,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10211,
+      "length": 50,
+      "value": "\"RequestQueueManager - addOperation - self is nil\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10699,
+      "length": 73,
+      "value": "\"completion handler not found for: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 10771,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11468,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11502,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11717,
+      "length": 32,
+      "value": "\"schedule retry after: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11748,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11880,
+      "length": 26,
+      "value": "\"retrying after: \""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/DefaultRequestQueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 11905,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore+track\/RavelinCore+trackRemoveFromCart.swift",
       "kind": "BooleanLiteral",
       "offset": 1277,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "Dictionary",
-      "offset": 1117,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "Dictionary",
-      "offset": 1201,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "Dictionary",
-      "offset": 1297,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "Dictionary",
-      "offset": 1852,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "Array",
-      "offset": 2954,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "Array",
-      "offset": 3668,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "Dictionary",
-      "offset": 3910,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 4887,
-      "length": 167,
-      "value": "\"Can not find destination entity: '\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 4960,
-      "length": 20,
-      "value": "\"', in relationship '\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 5011,
-      "length": 16,
-      "value": "\"', for entity: '\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 5052,
-      "length": 3,
-      "value": "\"'\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 5950,
-      "length": 86,
-      "value": "\"Can not find parent entity: '\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 5993,
-      "length": 16,
-      "value": "\"', for entity: '\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 6034,
-      "length": 3,
-      "value": "\"'\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 6832,
-      "length": 241,
-      "value": "\"Can not find inverse relationship '\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 6894,
-      "length": 22,
-      "value": "\"', for relationship: '\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 6947,
-      "length": 16,
-      "value": "\"', for entity: '\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 6993,
-      "length": 5,
-      "value": "\"nil\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 6999,
-      "length": 24,
-      "value": "\"', destination entity: '\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 7065,
-      "length": 5,
-      "value": "\"nil\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 7071,
-      "length": 3,
-      "value": "\"'\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "Dictionary",
-      "offset": 7539,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 8020,
-      "length": 79,
-      "value": "\"Can not find attribute, fetched property, or relationship with name: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 8097,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataModelDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 8445,
-      "length": 42,
-      "value": "\"Expression indexes are not supported yet\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Traits\/TraitsIos.swift",
@@ -5940,37 +6646,23 @@
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track+error.swift",
       "kind": "StringLiteral",
-      "offset": 240,
+      "offset": 232,
       "length": 29,
       "value": "\"trackError request was sent\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track+error.swift",
-      "kind": "BooleanLiteral",
-      "offset": 382,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track+error.swift",
       "kind": "StringLiteral",
-      "offset": 785,
+      "offset": 867,
       "length": 7,
       "value": "\"retry\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track+error.swift",
       "kind": "StringLiteral",
-      "offset": 801,
+      "offset": 883,
       "length": 19,
       "value": "\"Fingerprint error\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/QueueEntry.swift",
-      "kind": "StringLiteral",
-      "offset": 118,
-      "length": 12,
-      "value": "\"QueueEntry\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Extensions\/URLRequest+add.swift",
@@ -6092,76 +6784,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataRelationshipDescription.swift",
-      "kind": "BooleanLiteral",
-      "offset": 365,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataRelationshipDescription.swift",
-      "kind": "BooleanLiteral",
-      "offset": 394,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataRelationshipDescription.swift",
-      "kind": "BooleanLiteral",
-      "offset": 512,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataRelationshipDescription.swift",
-      "kind": "IntegerLiteral",
-      "offset": 605,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataRelationshipDescription.swift",
-      "kind": "IntegerLiteral",
-      "offset": 609,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataRelationshipDescription.swift",
-      "kind": "IntegerLiteral",
-      "offset": 763,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataRelationshipDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 1545,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataRelationshipDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 1572,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataRelationshipDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 2190,
-      "length": 28,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataRelationshipDescription.swift",
-      "kind": "StringLiteral",
-      "offset": 2217,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckSymbolicLinks.swift",
       "kind": "Array",
       "offset": 94,
@@ -6213,44 +6835,37 @@
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
       "kind": "StringLiteral",
-      "offset": 902,
+      "offset": 909,
       "length": 7,
       "value": "\"Tasks\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 986,
+      "offset": 993,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
       "kind": "BooleanLiteral",
-      "offset": 3513,
+      "offset": 3520,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
       "kind": "StringLiteral",
-      "offset": 4033,
+      "offset": 4040,
       "length": 45,
       "value": "\"sendFingerprint - thread: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore.swift",
       "kind": "StringLiteral",
-      "offset": 4077,
+      "offset": 4084,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataFetchedPropertyDescription.swift",
-      "kind": "BooleanLiteral",
-      "offset": 284,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore+track\/RavelinCore+trackSearch.swift",
@@ -6596,6 +7211,1133 @@
       "value": "\"Matching Item Not Found\""
     },
     {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "StringLiteral",
+      "offset": 90,
+      "length": 34,
+      "value": "\"0123456789ABCDEFGHJKMNPQRSTVWXYZ\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "Array",
+      "offset": 182,
+      "length": 1854,
+      "value": "[0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f, 0x10, 0x11, 0x01, 0x12, 0x13, 0x01, 0x14, 0x15, 0x00, 0x16, 0x17, 0x18, 0x19, 0x1a, 0xff, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f, 0x10, 0x11, 0x01, 0x12, 0x13, 0x01, 0x14, 0x15, 0x00, 0x16, 0x17, 0x18, 0x19, 0x1a, 0xff, 0x1b, 0x1c, 0x1d, 0x1e, 0x1f, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff]"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "StringLiteral",
+      "offset": 2267,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "StringLiteral",
+      "offset": 2322,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "Array",
+      "offset": 2450,
+      "length": 15,
+      "value": "[0, 2, 4, 5, 7]"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2487,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2581,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2617,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2621,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2715,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2819,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2883,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2923,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2960,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3107,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3224,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3254,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3265,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3271,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3282,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3336,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3366,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3377,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3383,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3394,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3400,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3411,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3417,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3465,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3495,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3506,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3512,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3523,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3529,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3577,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3607,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3618,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3624,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3635,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3641,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3652,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3658,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3706,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3736,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3747,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3753,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3764,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3770,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3851,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3876,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3898,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4044,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4257,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4351,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4356,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4360,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4421,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4425,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4430,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4557,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4697,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4739,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4749,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4821,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4887,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4926,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4943,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4971,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4988,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4994,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5049,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5077,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5094,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5100,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5127,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5144,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5150,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5177,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5194,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5200,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5255,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5283,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5300,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5306,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5333,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5350,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5356,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5411,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5439,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5456,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5462,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5489,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5506,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5512,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5539,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5556,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5562,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5617,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5645,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5662,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5668,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5695,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5712,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5718,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5819,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5835,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5907,
+      "length": 4,
+      "value": "0x1f"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5962,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6069,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6105,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6110,
+      "length": 4,
+      "value": "0x3d"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6148,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6153,
+      "length": 4,
+      "value": "0x3d"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6227,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6263,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6268,
+      "length": 4,
+      "value": "0x3d"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6342,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6378,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6383,
+      "length": 4,
+      "value": "0x3d"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6421,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6426,
+      "length": 4,
+      "value": "0x3d"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6500,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6536,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6541,
+      "length": 4,
+      "value": "0x3d"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6730,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6759,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6785,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6814,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6857,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7262,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7484,
+      "length": 2,
+      "value": "26"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "StringLiteral",
+      "offset": 7519,
+      "length": 8,
+      "value": "\"000000\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7668,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8109,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8267,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "FloatLiteral",
+      "offset": 8337,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8430,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8436,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8516,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8859,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8865,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8946,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9158,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "FloatLiteral",
+      "offset": 9228,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9321,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9327,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9407,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9605,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9611,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9691,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9889,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9895,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9975,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10457,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10578,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10722,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10805,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10811,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10838,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "FloatLiteral",
+      "offset": 10979,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/IDs\/ULID.swift",
+      "kind": "StringLiteral",
+      "offset": 13978,
+      "length": 52,
+      "value": "\"Attempted to decode ULID from invalid ULID string.\""
+    },
+    {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Logger\/RLogger.swift",
       "kind": "StringLiteral",
       "offset": 247,
@@ -6778,51 +8520,44 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/ErrorReport\/ErrorReport.swift",
-      "kind": "Array",
-      "offset": 2137,
-      "length": 2,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Request\/RequestManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 501,
+      "offset": 503,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Request\/RequestManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1321,
+      "offset": 1335,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Request\/RequestManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1375,
+      "offset": 1389,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Request\/RequestManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1434,
+      "offset": 1448,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Request\/RequestManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1492,
+      "offset": 1506,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Request\/RequestManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1602,
+      "offset": 1616,
       "length": 5,
       "value": "false"
     },
@@ -6974,20 +8709,6 @@
       "value": "\"VIEW_CONTENT\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataAttributeDescription.swift",
-      "kind": "BooleanLiteral",
-      "offset": 289,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataAttributeDescription.swift",
-      "kind": "BooleanLiteral",
-      "offset": 351,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckRestrictedDirectoriesWriteable.swift",
       "kind": "Array",
       "offset": 111,
@@ -7042,6 +8763,20 @@
       "offset": 1067,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/FileStore.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 17,
+      "value": "\"FileStore.Queue\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/FileStore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1866,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Request\/RequestError+shouldRetry.swift",
@@ -7382,9 +9117,16 @@
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Events\/Events.swift",
       "kind": "StringLiteral",
-      "offset": 2371,
+      "offset": 3901,
       "length": 13,
       "value": "\"clickstream\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Events\/Events.swift",
+      "kind": "Array",
+      "offset": 7253,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/IntegrityCheck.swift",
@@ -7898,599 +9640,18 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 379,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 402,
-      "length": 14,
-      "value": "\"RequestQueue\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 902,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1101,
-      "length": 50,
-      "value": "\"managedObjectContext - thread: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1150,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1922,
-      "length": 55,
-      "value": "\"Persistent Store Location: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1976,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2017,
-      "length": 49,
-      "value": "\"RequestQueueManager - thread: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2065,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2499,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2547,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2772,
-      "length": 16,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2780,
-      "length": 1,
-      "value": "\".sqlite\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2981,
-      "length": 50,
-      "value": "\"RequestQueue error: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3030,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3317,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3475,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3924,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4185,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4215,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4745,
-      "length": 53,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4782,
-      "length": 5,
-      "value": "\" added to queue\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4888,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5088,
-      "length": 41,
-      "value": "\"addOperation - count: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5128,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5212,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5242,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5555,
-      "length": 68,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5580,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5584,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5618,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5622,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5759,
-      "length": 21,
-      "value": "\"Queue is processing\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5841,
-      "length": 25,
-      "value": "\"Queue is not processing\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5957,
-      "length": 45,
-      "value": "\"removeAll - count before: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6001,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6125,
-      "length": 44,
-      "value": "\"removeAll - count after: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6168,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6452,
-      "length": 18,
-      "value": "\"%@ > pausedUntil\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6570,
-      "length": 20,
-      "value": "\"pausedUntil != nil\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6910,
-      "length": 52,
-      "value": "\"removeBeforeDate - count before: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6961,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7169,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7369,
-      "length": 20,
-      "value": "\"pausedUntil == nil\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7666,
-      "length": 11,
-      "value": "\"%@ > date\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8046,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8265,
-      "length": 53,
-      "value": "\"RequestQueueManager - startProcessing - self is nil\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8436,
-      "length": 29,
-      "value": "\"Queue is already processing\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8794,
-      "length": 49,
-      "value": "\"Expired Items: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8824,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8842,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9094,
-      "length": 57,
-      "value": "\"collectExpiredRequests - count after: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9150,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9371,
-      "length": 79,
-      "value": "\"RequestQueueManager - performErrorRequest:\n  \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9449,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9602,
-      "length": 7,
-      "value": "\"click\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9701,
-      "length": 29,
-      "value": "\"Error for events: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9729,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9859,
-      "length": 13,
-      "value": "\"fingerprint\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9974,
-      "length": 39,
-      "value": "\"Error for fingerprint: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10012,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10449,
-      "length": 64,
-      "value": "\"Queue Items: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10477,
-      "length": 1,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10495,
-      "length": 5,
-      "value": "\" ready to process\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10784,
-      "length": 74,
-      "value": "\"RequestQueueManager - performRequest:\n  \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10857,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10881,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11052,
-      "length": 52,
-      "value": "\"RequestQueueManager - performRequest - self is nil\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11190,
-      "length": 79,
-      "value": "\"Processed \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11237,
-      "length": 1,
-      "value": "\": \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11268,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11564,
-      "length": 50,
-      "value": "\"RequestQueueManager - addOperation - self is nil\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 12017,
-      "length": 52,
-      "value": "\"completion handler not found for: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 12068,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 12861,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12919,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12967,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 13147,
-      "length": 32,
-      "value": "\"schedule retry after: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 13178,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 13310,
-      "length": 26,
-      "value": "\"retrying after: \""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "StringLiteral",
-      "offset": 13335,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13390,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track+event.swift",
       "kind": "StringLiteral",
-      "offset": 466,
+      "offset": 458,
       "length": 32,
       "value": "\"trackEvent sent: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track+event.swift",
       "kind": "StringLiteral",
-      "offset": 497,
+      "offset": 489,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track+event.swift",
-      "kind": "BooleanLiteral",
-      "offset": 641,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/ReverseEngineeringCheck.swift",
@@ -8612,11 +9773,46 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/CoreDataModelDescription\/CoreDataFetchIndexDescription.swift",
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/Cache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 590,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/Cache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 595,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/Cache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 600,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/Cache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 638,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/Cache.swift",
       "kind": "BooleanLiteral",
-      "offset": 394,
-      "length": 4,
-      "value": "true"
+      "offset": 2574,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/Cache.swift",
+      "kind": "StringLiteral",
+      "offset": 2265,
+      "length": 10,
+      "value": "\"RavelinCore.WrappedKey\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/DefaultRequestBuilder.swift",
@@ -8626,25 +9822,25 @@
       "value": "\"https\""
     },
     {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 950,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track+fingerprint.swift",
       "kind": "StringLiteral",
-      "offset": 354,
+      "offset": 341,
       "length": 33,
       "value": "\"fingerprint sent: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track+fingerprint.swift",
       "kind": "StringLiteral",
-      "offset": 386,
+      "offset": 373,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track+fingerprint.swift",
-      "kind": "BooleanLiteral",
-      "offset": 530,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RavelinCore+track\/RavelinCore+trackAddToCart.swift",
@@ -8754,51 +9950,58 @@
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1144,
       "length": 7,
       "value": "\"Tasks\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track.swift",
       "kind": "IntegerLiteral",
-      "offset": 1221,
+      "offset": 1228,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track.swift",
       "kind": "BooleanLiteral",
-      "offset": 1258,
+      "offset": 1265,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track.swift",
       "kind": "StringLiteral",
-      "offset": 1434,
+      "offset": 1441,
       "length": 60,
       "value": "\"getAddress ipv4: \""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track.swift",
       "kind": "StringLiteral",
-      "offset": 1488,
+      "offset": 1495,
       "length": 4,
       "value": "\"??\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track.swift",
       "kind": "StringLiteral",
-      "offset": 1493,
+      "offset": 1500,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track.swift",
       "kind": "StringLiteral",
-      "offset": 2006,
+      "offset": 2063,
       "length": 21,
       "value": "\"willEnterForeground\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Track\/Track.swift",
+      "kind": "StringLiteral",
+      "offset": 2205,
+      "length": 20,
+      "value": "\"didEnterBackground\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Extensions\/Decodable+init.swift",
@@ -8820,41 +10023,6 @@
       "offset": 498,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager+makeModel.swift",
-      "kind": "StringLiteral",
-      "offset": 306,
-      "length": 12,
-      "value": "\"QueueEntry\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager+makeModel.swift",
-      "kind": "StringLiteral",
-      "offset": 452,
-      "length": 9,
-      "value": "\"request\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager+makeModel.swift",
-      "kind": "StringLiteral",
-      "offset": 533,
-      "length": 6,
-      "value": "\"date\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager+makeModel.swift",
-      "kind": "StringLiteral",
-      "offset": 609,
-      "length": 13,
-      "value": "\"pausedUntil\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/RequestQueueManager\/RequestQueueManager+makeModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 662,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/ravelin-core-ios\/RavelinCore\/RavelinCore\/Fingerprint\/Checks\/BaseChecks\/CheckOpenPorts.swift",
