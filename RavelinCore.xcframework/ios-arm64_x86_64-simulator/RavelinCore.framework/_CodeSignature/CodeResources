@@ -14,19 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0L9ewuveXiL7SRW8kmqtYKU73Pk=
+		f26Uw9OArBXCeYTvIdzJ9gL3+Uk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		niKcQGo/kOBDwNi+1n93kTFrDtk=
+		XXm9jJwgvJvEibQTCTHd9CMFs2k=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		ys+RLIeH1mDmxus5zYdC9Om4eVo=
 		</data>
 		<key>Retries.momd/Retries.mom</key>
 		<data>
-		N2p3ciUTwOagT/IKiDbEtXA10AI=
+		F8jP0hoQU3pIhf9tx+LgJbLbnmM=
 		</data>
 		<key>Retries.momd/VersionInfo.plist</key>
 		<data>
-		zkehmC7q/FB4++bLqnJ1gF30h+Y=
+		H4xcVYmd0kuz+R6jPLN9PbeYzQ0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -57,33 +61,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			niKcQGo/kOBDwNi+1n93kTFrDtk=
+			XXm9jJwgvJvEibQTCTHd9CMFs2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			mtlgstgneBwqahaxm+CZNI051637bEnoF/GbzW7yzsY=
+			UkkL5mQqesuPFK+rJZ+liOb1NyECyakSSEr4bEOwSNM=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ys+RLIeH1mDmxus5zYdC9Om4eVo=
+			</data>
+			<key>hash2</key>
+			<data>
+			dDQ814FE3QmkiDuj4+7sJWZjgc2s1lNwtLe390MnFEY=
 			</data>
 		</dict>
 		<key>Retries.momd/Retries.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N2p3ciUTwOagT/IKiDbEtXA10AI=
+			F8jP0hoQU3pIhf9tx+LgJbLbnmM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lj7ZplfIZnkTqYxkaU5vz2aG/F1kCH4HeYPBzhdTGmo=
+			8vdo1WrSHflRHRtEbN1160iebXdQu1REARqMwsy4rJk=
 			</data>
 		</dict>
 		<key>Retries.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zkehmC7q/FB4++bLqnJ1gF30h+Y=
+			H4xcVYmd0kuz+R6jPLN9PbeYzQ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ExlK/Mer1Bov7BxiS4zR1TN/aZm7S7zk9JpQ5zlBYC0=
+			5vJ5uwr8lBnBmj6qthjKYHlSi2k46f5eWf4MOH5+U8Q=
 			</data>
 		</dict>
 	</dict>
