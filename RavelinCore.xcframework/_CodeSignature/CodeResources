@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		b/lQFcKX7bV6CnSwteNW0PpN7q8=
-		</data>
-		<key>ios-arm64/.DS_Store</key>
-		<data>
-		N/GDawJ8cgH9CkSvQKbZTVH6T1Q=
-		</data>
-		<key>ios-arm64/RavelinCore.framework/.DS_Store</key>
-		<data>
-		r3JIzBBFgtyapRO2HIWozpefY50=
-		</data>
 		<key>ios-arm64/RavelinCore.framework/Headers/Ravelin.h</key>
 		<data>
 		AznqY0B4syM88sDVEmXFOAVw/cU=
@@ -34,11 +22,11 @@
 		</data>
 		<key>ios-arm64/RavelinCore.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		ys+RLIeH1mDmxus5zYdC9Om4eVo=
+		MvMCx+o2OYH/tYi3hhl4ilU6STY=
 		</data>
 		<key>ios-arm64/RavelinCore.framework/RavelinCore</key>
 		<data>
-		ntbxK7AAuNgvKQn1Jv8Gz/WYwAM=
+		jd1IRlJGf+ZHSZuRwWfaA0lNBFY=
 		</data>
 		<key>ios-arm64/RavelinCore.framework/Retries.momd/Retries.mom</key>
 		<data>
@@ -50,11 +38,7 @@
 		</data>
 		<key>ios-arm64/RavelinCore.framework/_CodeSignature/CodeResources</key>
 		<data>
-		bN8cuXk8ZrnAkiHmt/lSzN0lB7M=
-		</data>
-		<key>ios-arm64_x86_64-simulator/.DS_Store</key>
-		<data>
-		/tFK3JE5Y3l17qMvz0lEFUbLHCE=
+		OCMIEWIY0G0QCj8ZsC35yEXcxak=
 		</data>
 		<key>ios-arm64_x86_64-simulator/RavelinCore.framework/Headers/Ravelin.h</key>
 		<data>
@@ -74,11 +58,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/RavelinCore.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		ys+RLIeH1mDmxus5zYdC9Om4eVo=
+		MvMCx+o2OYH/tYi3hhl4ilU6STY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/RavelinCore.framework/RavelinCore</key>
 		<data>
-		jbY1a4NAEqQSme9frVh2pw6zWsA=
+		PZASGMHBQhMf5ZQyAqsZCszofsw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/RavelinCore.framework/Retries.momd/Retries.mom</key>
 		<data>
@@ -90,7 +74,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/RavelinCore.framework/_CodeSignature/CodeResources</key>
 		<data>
-		kZdSIuT420RVA7tIblqMysikjH8=
+		qyBGwEpHvxpO/vLSn+vd6PbBpWA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -143,22 +127,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ys+RLIeH1mDmxus5zYdC9Om4eVo=
+			MvMCx+o2OYH/tYi3hhl4ilU6STY=
 			</data>
 			<key>hash2</key>
 			<data>
-			dDQ814FE3QmkiDuj4+7sJWZjgc2s1lNwtLe390MnFEY=
+			TSUhEueBaJrAwXZSY0jjxmHaHEPTFXwPQPy6DfFVFUo=
 			</data>
 		</dict>
 		<key>ios-arm64/RavelinCore.framework/RavelinCore</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ntbxK7AAuNgvKQn1Jv8Gz/WYwAM=
+			jd1IRlJGf+ZHSZuRwWfaA0lNBFY=
 			</data>
 			<key>hash2</key>
 			<data>
-			RkYNha5Ok8n64CPuuL6tsDd2qRNTkDW7BDTy7/iL4gI=
+			g4SVxaX+hJPkwRy1wsVEg3q1+cn+3bId2+YTgUYxaeA=
 			</data>
 		</dict>
 		<key>ios-arm64/RavelinCore.framework/Retries.momd/Retries.mom</key>
@@ -187,11 +171,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bN8cuXk8ZrnAkiHmt/lSzN0lB7M=
+			OCMIEWIY0G0QCj8ZsC35yEXcxak=
 			</data>
 			<key>hash2</key>
 			<data>
-			gHFgGZVg+trWy+4vRl4c2ZVHgZDdVP0mvFanJL4TrLA=
+			Ujci2gW7impnnRXN4w6fhzivy0FEEZEz+eALDIo8ex4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/RavelinCore.framework/Headers/Ravelin.h</key>
@@ -242,22 +226,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ys+RLIeH1mDmxus5zYdC9Om4eVo=
+			MvMCx+o2OYH/tYi3hhl4ilU6STY=
 			</data>
 			<key>hash2</key>
 			<data>
-			dDQ814FE3QmkiDuj4+7sJWZjgc2s1lNwtLe390MnFEY=
+			TSUhEueBaJrAwXZSY0jjxmHaHEPTFXwPQPy6DfFVFUo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/RavelinCore.framework/RavelinCore</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jbY1a4NAEqQSme9frVh2pw6zWsA=
+			PZASGMHBQhMf5ZQyAqsZCszofsw=
 			</data>
 			<key>hash2</key>
 			<data>
-			aNilskMCvJplnNgCRPJQ2rViBfuRDXs9Uz1V9p4Pdi0=
+			Fwjc7p38mkC1s7n/ckjkyVZTygvwIzI5TUc8bojZgS0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/RavelinCore.framework/Retries.momd/Retries.mom</key>
@@ -286,11 +270,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kZdSIuT420RVA7tIblqMysikjH8=
+			qyBGwEpHvxpO/vLSn+vd6PbBpWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ElmNxVKrFZ2nP9klC2JPXiHWTpeAHGFwAMaZJy+iooY=
+			ln+GLrLe3tBs0ynmeAt4I+1EmjWeymcxUXv4xApN84M=
 			</data>
 		</dict>
 	</dict>
